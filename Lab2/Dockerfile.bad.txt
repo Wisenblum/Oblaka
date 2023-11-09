@@ -1,0 +1,16 @@
+Dockerfile.bad                                                                                             
+
+#  Bad Practice 1: Using a base image without a tag
+FROM ubuntu
+
+# Bad Practice 2: Installing multiple packages in one command
+RUN apt-get update && apt-get install -y \ nginx \ mysql-server \ nodejs
+
+# Bad Practice 3: Uncleaned caches and temporary files
+RUN apt-get clean
+
+# Bad Practice 4: Disposable Layers
+RUN echo "Hello, world!" > /tmp/hello.txt
+
+# Плохая практика 5: Запуск нескольких приложений в одном контейнере
+CMD service nginx start && service mysql start

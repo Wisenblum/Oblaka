@@ -1,0 +1,20 @@
+Dockerfile.good *                                                                                          
+
+# Good Practice 1: Use a specific tag of the base image         
+FROM ubuntu:20.04
+
+# Good Practice 2: Installing packages in multiple layers 
+RUN apt-get update
+RUN apt-get install -y nginx
+RUN apt-get install -y mysql-server
+RUN apt-get install -y nodejs
+
+# Good Practice 3: Clearing cache and temporary files in one command 
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Good Practice 4: Minimizing Disposable Layers    
+WORKDIR /app
+COPY . .
+
+# Good Practice 5: Running only one process        
+CMD ["nginx", "-g", "daemon off;"]
