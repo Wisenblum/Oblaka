@@ -19,7 +19,7 @@
 - Amazon Simple Notification Service (SNS) представляет собой сервис, предназначенный для отправки уведомлений как сервисам AWS, так и конечным пользователям (клиентам).
 
 ## Маппинг
-
+![image](https://github.com/Wisenblum/Oblaka/assets/70391455/e19e30ae-f37d-4220-846a-6cb2eae733a7)
 ## Итоговая таблица
 
 ## Вывод
