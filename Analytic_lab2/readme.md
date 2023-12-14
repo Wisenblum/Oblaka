@@ -9,4 +9,6 @@
 ## Маппинг
 ## Возможности миграции
 ## Итоговая таблица
+![image](https://github.com/Wisenblum/Oblaka/assets/70391455/4e3aee33-19e1-4e4d-9668-a8052a1bee12)
+
 ## Вывод
