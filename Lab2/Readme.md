@@ -5,7 +5,7 @@
 Создадим сначала плохой Dockerfile под названием Dockerfile.bad (также в процессе подключения к образу мы использовать команду "sudo su", так как было отказано в доступе)
 ![image](https://github.com/Wisenblum/Oblaka/assets/70391455/1054fcad-93c6-426c-9355-5558bcf6189a)
 Следом за плохим Dockerfile создадим хороший Dockerfile под названием Dockerfile.good
-![image](https://github.com/Wisenblum/Oblaka/assets/70391455/241d311a-b4b7-4896-9538-aa22ac8a2868)
+![image](https://github.com/Wisenblum/Oblaka/assets/112980347/192a5b44-bdb7-4099-bac9-be759955a4d1)
 В хорошем Dockerfile исправлены:
 
 -"плохие практики", включая использование конкретного тега базового образа, 
