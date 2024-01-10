@@ -3,7 +3,7 @@
 # Убедимся что сервис Docker запущен: "systemctl status docker"
 ![image](https://github.com/Wisenblum/Oblaka/assets/70391455/75c03458-d11b-41b9-af27-38c62a0980ba)
 Создадим сначала плохой Dockerfile под названием Dockerfile.bad (также в процессе подключения к образу мы использовать команду "sudo su", так как было отказано в доступе)
-![image](https://github.com/Wisenblum/Oblaka/assets/70391455/1054fcad-93c6-426c-9355-5558bcf6189a)
+![image](https://github.com/Wisenblum/Oblaka/assets/112980347/20eb6698-ef68-46be-884a-791049d84adf)
 Следом за плохим Dockerfile создадим хороший Dockerfile под названием Dockerfile.good
 ![image](https://github.com/Wisenblum/Oblaka/assets/70391455/241d311a-b4b7-4896-9538-aa22ac8a2868)
 В хорошем Dockerfile исправлены:
